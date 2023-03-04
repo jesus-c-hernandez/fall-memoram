@@ -1,0 +1,44 @@
+#title-component {
+
+  .pos-abs {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .pos-rel {
+    position: relative;
+  }
+
+  .cont-title {
+    padding-top: 2em;
+  }
+  
+  .fs-6em {
+    font-size: 6em;
+  }
+  
+  .pos-fix {
+    position: fixed;
+  }
+  
+  .main-title {
+    font-weight: 100;
+    -webkit-text-stroke: 18px #fff;
+  }
+  
+  .top-main {
+    top: 3.5%;
+  }
+  
+  .top-sec {
+    top: 19.4%;
+  }
+  
+  .img-fall {
+    position: relative;
+    z-index: 1;
+    width: 2em;
+    top: -4.5em;
+    left: -1.6em;
+  }
+}

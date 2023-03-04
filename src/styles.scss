@@ -1,1 +1,133 @@
 /* You can add global styles to this file, and also import other style files */
+$color-1: #ECE7F0;
+$color-2: #C7AF95;
+$color-3: #F0D602;
+$color-4: #2FD8DD;
+$color-5: #FC6E98;
+
+html,
+body{
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+// ==== Text ====
+h1 {
+  font-size: 72px;
+  font-weight: 600;
+  margin: 0;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+// ==== / Text ====
+// ==== Color ====
+.c-1 {
+  color: $color-1;
+}
+.c-2 {
+  color: $color-2;
+}
+.c-3 {
+  color: $color-3;
+}
+.c-4 {
+  color: $color-4;
+}
+.c-5 {
+  color: $color-5;
+}
+.c-w {
+  color: #fff;
+}
+// ==== / Color ====
+// ==== Shadow ====
+.sh-2 {
+  text-shadow: 2px 2px 2px #000;
+}
+.sh-4 {
+  text-shadow: 4px 4px 4px #000;
+}
+// ==== / Shadow ====
+// ==== Width ====
+.w-p-100 {
+  width: 100%;
+}
+// ==== / Width ====
+// ==== Margin ====
+.m-0 {
+  margin: 0;
+}
+// ==== / Margin ====
+// ===== Flexbox =====
+.fl {
+  display: flex;
+}
+.jc-c {
+  display: flex;
+  justify-content: center;
+}
+.jc-sb {
+  display: flex;
+  justify-content: space-evenly;
+}
+.jc-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.jc-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.jc-around {
+  display: flex;
+  justify-content: space-around;
+}
+.jc-bet {
+  display: flex;
+  justify-content: space-between;
+}
+.al-i-al-cont {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.al-i-end {
+  display: flex;
+  align-items: flex-end;
+}
+.al-i-c {
+  display: flex;
+  align-items: center;
+}
+// .lobby-elements {
+//   flex-direction: column;
+//   flex-wrap: wrap;
+// }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+// ===== / Flexbox =====
+// ===== Gap =====
+.gap-100 {
+  gap: 100px;
+}
+// ===== / Gap =====
