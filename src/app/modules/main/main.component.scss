@@ -11,12 +11,6 @@ $color-white: #fff;
     opacity: 0.6;
   }
 
-  .crown-1 {
-    position: absolute;
-    top: 10%;
-    right: 0%;
-  }
-
   .crown-2 {
     position: absolute;
     top: 100%;
@@ -29,12 +23,9 @@ $color-white: #fff;
 
   .cont-crown-1 {
     animation: go-crown-1-left-right 5s infinite alternate;
-    /* aplicar la animación "go-crown-1-left-right" al elemento
-       duración 5 segundos
-       número de veces: infinitas
-       alternar la dirección cada vez
-    */
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   @keyframes go-crown-2-left-right {        /* dale un nombre: "go-crown-2-left-right" */
@@ -49,6 +40,8 @@ $color-white: #fff;
        número de veces: infinitas
        alternar la dirección cada vez
     */
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

@@ -2,26 +2,24 @@ $color-3: #f0d602;
 $color-5: #fc6e98;
 
 #gamemode-component {
-  padding-top: 6em;
-
+  padding-top: 1em;
   .pos-abs {
     position: absolute;
-    z-index: 1;
     top: 22em;
   }
 
   .pos-rel {
     position: relative;
+    z-index: 1;
   }
 
   .card {
     background-color: #fff;
-    min-width: 16em;
-    min-height: 20em;
+    width: 18em;
+    height: 22em;
     border-radius: 10px;
     outline: 0.3em solid #fff;
     box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 1);
-    // animation: bounce-out 0.3s forwards linear;
     touch-action: manipulation;
     cursor: pointer;
   }
@@ -39,14 +37,46 @@ $color-5: #fc6e98;
 
   .img-card {
     height: 16em;
+    
   }
 
   .img-card-i {
     border-radius: 0 0 8px 8px;
     height: 16em;
+    width: 17.4em;
+    object-fit: cover;
   }
 
   .img-gray {
     filter: grayscale(100%);
+  }
+
+  @media (min-height: 900px) {
+    padding-top: 6em;
+  }
+
+  @media (max-height: 600px) {
+    .h2-size {
+      font-size: 2.4em;
+    }
+
+    .card {
+      width: 14em;
+      height: 16em;
+    }
+
+    .title-card {
+      padding: 0.8em 1em;
+    }
+
+    .img-card {
+      height: 11.6em;
+    }
+
+    .img-card-i {
+      height: 11.6em;
+      width: 13.4em;
+    }
+
   }
 }

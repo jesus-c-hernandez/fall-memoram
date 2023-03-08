@@ -1,44 +1,73 @@
 #title-component {
+  h1 {
+    font-size: 6em;
+  }
+  .pos-rel {
+    position: relative;
+  }
 
   .pos-abs {
     position: absolute;
     z-index: 1;
   }
 
-  .pos-rel {
-    position: relative;
-  }
-
   .cont-title {
     padding-top: 2em;
   }
-  
-  .fs-6em {
-    font-size: 6em;
-  }
-  
+
   .pos-fix {
     position: fixed;
   }
-  
+
   .main-title {
     font-weight: 100;
     -webkit-text-stroke: 18px #fff;
+    position: absolute;
+    top: 0.32em;
   }
-  
-  .top-main {
-    top: 3.5%;
+
+  .main-title-sec {
+    font-weight: 100;
+    -webkit-text-stroke: 18px #fff;
+    position: absolute;
+    top: 1.9em;
   }
-  
+
+  .main-title-front {
+    z-index: 1;
+  }
+
   .top-sec {
     top: 19.4%;
   }
-  
+
   .img-fall {
     position: relative;
     z-index: 1;
     width: 2em;
     top: -4.5em;
     left: -1.6em;
+  }
+
+  @media (max-height: 600px) {
+    h1 {
+      font-size: 4em;
+    }
+
+    .main-title {
+      top: 0.48em;
+    }
+
+    .main-title-sec {
+      top: 2.05em;
+    }
+
+    .img-fall {
+      position: relative;
+      z-index: 1;
+      width: 1.4em;
+      top: -3.3em;
+      left: -1.1em;
+    }
   }
 }
