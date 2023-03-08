@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/fpBQfb8/img-01.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 2,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/Gvkv3TG/img-02.jpg",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 3,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/YpFZktZ/img-03.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 4,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/TW4x963/img-04.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 5,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/74z75jJ/img-05.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 6,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/QnZ7240/img-06.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 7,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/LrnZ3yC/img-07.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 8,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/zFJHjj1/img-08.jpg",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 9,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/KXvdynD/img-09.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 10,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/LzXCvYy/img-10.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 11,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/3yCr95p/img-11.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 12,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/sKyq5Vx/img-12.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 13,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/9YTSf9K/img-13.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 14,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/XSsN32f/img-14.jpg",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 1,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/fpBQfb8/img-01.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 2,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/Gvkv3TG/img-02.jpg",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 3,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/YpFZktZ/img-03.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 4,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/TW4x963/img-04.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 5,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/74z75jJ/img-05.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 6,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/QnZ7240/img-06.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 7,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/LrnZ3yC/img-07.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 8,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/zFJHjj1/img-08.jpg",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 9,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/KXvdynD/img-09.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 10,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/LzXCvYy/img-10.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 11,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/3yCr95p/img-11.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 12,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/sKyq5Vx/img-12.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 13,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/9YTSf9K/img-13.png",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  },
+  {
+    "id": 14,
+    "isFliped": false,
+    "imgFront": "https://i.ibb.co/XSsN32f/img-14.jpg",
+    "imgBack": "https://i.ibb.co/QjkkRp9/back.png"
+  }
+]
