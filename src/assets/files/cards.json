@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-01.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 2,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-02.jpg",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 3,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-03.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 4,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-04.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 5,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-05.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 6,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-06.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 7,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-07.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 8,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-08.jpg",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 9,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-09.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 10,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-10.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 11,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-11.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 12,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-12.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 13,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-13.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 14,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-14.jpg",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 1,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-01.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 2,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-02.jpg",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 3,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-03.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 4,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-04.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 5,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-05.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 6,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-06.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 7,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-07.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 8,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-08.jpg",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 9,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-09.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 10,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-10.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 11,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-11.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 12,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-12.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 13,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-13.png",
+    "imgBack": "../../../../assets/cards/back.png"
+  },
+  {
+    "id": 14,
+    "isFliped": false,
+    "imgFront": "../../../../assets/cards/img-14.jpg",
+    "imgBack": "../../../../assets/cards/back.png"
+  }
+]

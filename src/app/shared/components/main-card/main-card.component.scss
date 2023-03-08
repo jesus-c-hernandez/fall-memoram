@@ -1,0 +1,46 @@
+#main-card-component {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+  gap: 28px;
+  // overflow-y: visible;
+
+  .size {
+    width: 8em;
+    height: 10em;
+  }
+
+  .card-box {
+    position: relative;
+    perspective: 500px;
+    cursor: pointer;
+  }
+
+  .flip-card {
+    transform: rotateY(180deg);
+  }
+
+  .card {
+    transform-style: preserve-3d;
+    transition: all 0.4s linear;
+  }
+
+  .card-box:hover .card{
+    scale: 1.08;
+  }
+
+  .front {
+    position: absolute;
+    backface-visibility: hidden;
+    outline: 0.3em solid #fff;
+    border-radius: 10px;
+  }
+
+  .front.back {
+    transform: rotateY(180deg);
+  }
+
+  .img-card {
+    object-fit: cover;
+  }
+}

@@ -21,14 +21,38 @@ $color-5: #fc6e98;
     border-radius: 10px;
     outline: 0.3em solid #fff;
     box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 1);
-    transition: 0.3s;
+    // animation: bounce-out 0.3s forwards linear;
     touch-action: manipulation;
     cursor: pointer;
   }
 
-  .card:hover {
-    scale: 1.05;
-  }
+  // .card:hover {
+  //   animation-duration: 0.3s;
+  //   animation-name: bounce-in;
+  //   animation-fill-mode: forwards;
+  //   animation-timing-function: linear;
+  // }
+
+  // @keyframes bounce-in {
+  //   0% {
+  //     transform: scale(1.05);
+  //   }
+  //   50% {
+  //     transform: scale(1.1);
+  //   }
+  //   100% {
+  //     transform: scale(1.05);
+  //   }
+  // }
+
+  // @keyframes bounce-out {
+  //   0% {
+  //     transform: scale(1.05);
+  //   }
+  //   100% {
+  //     transform: scale(1);
+  //   }
+  // }
 
   .card-i {
     border-radius: 12px;

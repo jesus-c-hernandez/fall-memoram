@@ -1,0 +1,16 @@
+<div id="solo-mode-component">
+  <div *ngIf="(this.showLoading$ | async)">
+    <app-loading></app-loading>
+  </div>
+  <div *ngIf="!(this.showLoading$ | async)">
+    <div>
+      <app-title-score></app-title-score>
+    </div>
+    <div>
+      <app-game></app-game>
+    </div>
+    <div>
+      <app-modal-scores></app-modal-scores>
+    </div>
+  </div>
+</div>

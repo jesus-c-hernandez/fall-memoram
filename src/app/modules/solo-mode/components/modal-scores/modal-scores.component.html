@@ -1,0 +1,42 @@
+<div id="modal-score-component" class="point-ev-all">
+  <div class="modal-score" [ngClass]="{ 'show-modal-score': (showModalScore$ | async)}">
+    <div class="modal">
+      <div class="modal-header jc-c t-sh-2">
+        <h3 class="c-w">Scores</h3>
+      </div>
+      <div class="modal-body">
+        <div class="jc-c">
+          <table class="t-sh-2">
+            <thead>
+              <tr>
+                <th class="min-w-4em">Date
+                  <hr>
+                </th>
+                <th>Player name
+                  <hr>
+                </th>
+                <th class="min-w-4em">Score
+                  <hr>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let score of (scoresList$ | async)">
+                <td>{{ score.date }}</td>
+                <td>{{ score.userName }}</td>
+                <td>{{ score.score }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="jc-c">
+          <button class="btn-close bounce-anim" (click)="closeModalScore()">
+            <h5 class="t-sh-2">
+              Close
+            </h5>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

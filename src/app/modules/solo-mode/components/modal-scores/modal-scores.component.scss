@@ -1,0 +1,82 @@
+#modal-score-component {
+  .modal-score {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba($color: #fff, $alpha: 0.4);
+    transition: all 0.8s ease;
+  }
+
+  .modal {
+    position: relative;
+    top: 9em;
+    left: calc(50% - (34em/2));
+    height: auto;
+    width: 34em;
+    background-color: #2fd8dd;
+    outline: 0.4em solid #fff;
+    border-radius: 0.2em;
+    box-shadow: 10px 10px 8px 0px rgb(0 0 0);
+    padding-bottom: 1em;
+  }
+
+  .show-modal-score {
+    transform: translateX(-100%);
+  }
+
+  .modal-header {
+    background-image: url("../../../../../assets/img/pattern.png");
+    padding: 1em;
+  }
+
+  table {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  th,
+  td {
+    padding: 0.2em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 1.3em;
+  }
+
+  thead {
+    th {
+      background-color: #1fb8d7;
+      font-size: 1.4em;
+      padding: 0.4em 0.2em 0em 0.2em;
+    }
+  }
+
+  thead {
+    hr {
+      height: 0.16em;
+      background-color: white;
+      border: none;
+      border-radius: 4px;
+      margin: 0.4em;
+    }
+  }
+
+  .min-w-4em {
+    min-width: 4em;
+  }
+
+  .btn-close {
+    font-family: "Fredoka One", cursive;
+    background-color: #fc6e98;
+    color: #fff;
+    border-radius: 0.6em;
+    border: none;
+    outline: 0.3em solid #fff;
+    padding: 0.5em 1.4em;
+    margin-top: 1em;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+}

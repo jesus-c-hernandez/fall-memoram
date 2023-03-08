@@ -1,0 +1,32 @@
+<div id="title-score-component">
+  <div class="cont-nav">
+    <div class="pos-abs fl gap-1em cont-title" (click)="goToMain()">
+      <img class="img-icon" src="../../../../../assets/img/cara.png" alt="" />
+      <h1 class="main-title fs-2em c-4">FALL</h1>
+      <h1 class="pos-fix top-main fs-2em c-4">FALL</h1>
+      <h1 class="main-title fs-2em c-5">MEMORAM</h1>
+      <h1 class="pos-fix top-sec fs-2em c-5">MEMORAM</h1>
+    </div>
+  </div>
+  <div class="jc-end">
+    <div>
+      <button class="btn-score t-sh-2" (click)="showModalScores()">
+        <h4 class="sh-2">
+          SCORES
+        </h4>
+      </button>
+    </div>
+  </div>
+  <div class="jc-c al-i-c gap-1em">
+    <div>
+      <h3 class="c-w t-sh-4">
+        ATTEMPS : 
+      </h3>
+    </div>
+    <div>
+      <h2 class="c-w t-sh-4">
+        {{ attempts$ | async }}
+      </h2>
+    </div>
+  </div>
+</div>

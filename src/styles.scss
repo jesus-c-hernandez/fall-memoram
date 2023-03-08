@@ -1,14 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-$color-1: #ECE7F0;
-$color-2: #C7AF95;
-$color-3: #F0D602;
-$color-4: #2FD8DD;
-$color-5: #FC6E98;
+$color-1: #ece7f0;
+$color-2: #c7af95;
+$color-3: #f0d602;
+$color-4: #2fd8dd;
+$color-5: #fc6e98;
 
 html,
-body{
+body {
   margin: 0;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 // ==== Text ====
@@ -20,22 +22,27 @@ h1 {
 h2 {
   font-size: 48px;
   font-weight: 600;
+  margin: 0;
 }
 h3 {
   font-size: 40px;
   font-weight: 600;
+  margin: 0;
 }
 h4 {
   font-size: 28px;
   font-weight: 600;
+  margin: 0;
 }
 h5 {
   font-size: 24px;
   font-weight: 500;
+  margin: 0;
 }
 h6 {
   font-size: 20px;
   font-weight: 500;
+  margin: 0;
 }
 // ==== / Text ====
 // ==== Color ====
@@ -58,11 +65,28 @@ h6 {
   color: #fff;
 }
 // ==== / Color ====
+// ==== Font size ====
+.fs-1em {
+  font-size: 1em;
+}
+.fs-2em {
+  font-size: 2em;
+}
+.fs-3em {
+  font-size: 3em;
+}
+.fs-4em {
+  font-size: 4em;
+}
+.fs-5em {
+  font-size: 5em;
+}
+// ==== / Font size ====
 // ==== Shadow ====
-.sh-2 {
+.t-sh-2 {
   text-shadow: 2px 2px 2px #000;
 }
-.sh-4 {
+.t-sh-4 {
   text-shadow: 4px 4px 4px #000;
 }
 // ==== / Shadow ====
@@ -74,6 +98,9 @@ h6 {
 // ==== Margin ====
 .m-0 {
   margin: 0;
+}
+.mt-3em {
+  margin-top: 3em;
 }
 // ==== / Margin ====
 // ===== Flexbox =====
@@ -127,7 +154,52 @@ h6 {
 }
 // ===== / Flexbox =====
 // ===== Gap =====
+.gap-1em {
+  gap: 1em;
+}
 .gap-100 {
   gap: 100px;
 }
 // ===== / Gap =====
+// ==== Pointer Events ====
+.point-ev-non {
+  pointer-events: none;
+}
+
+.point-ev-all {
+  pointer-events: all;
+}
+// ==== / Pointer Events ====
+// ==== Animation ====
+// ---- Bounce ----
+.bounce-anim {
+  animation: bounce-out 0.3s forwards linear;
+}
+.bounce-anim:hover {
+  animation-duration: 0.3s;
+  animation-name: bounce-in;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes bounce-out {
+  0% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+// ---- / Bounce ----
+// ==== / Animation ====

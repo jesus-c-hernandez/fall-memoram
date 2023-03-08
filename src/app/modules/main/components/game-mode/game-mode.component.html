@@ -2,15 +2,15 @@
   <div class="pos-abs w-p-100 jc-c">
     <div class="pos-rel">
       <div  class="jc-c">
-        <h2 class="c-w sh-4">
+        <h2 class="c-w t-sh-4">
           GAME MODE
         </h2>
       </div>
-      <div class="jc-c gap-100">
-        <div class="card">
+      <div class="jc-c gap-100 mt-3em">
+        <div class="card bounce-anim" (click)="goToGame('solo')">
           <div class="card-i">
             <div class="title-card jc-c">
-              <h4 class="m-0 c-w sh-2">
+              <h4 class="m-0 c-w t-sh-2">
                 SOLO SHOW
               </h4>
             </div>
@@ -19,10 +19,10 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card bounce-anim" (click)="goToGame('vs')">
           <div class="card-i">
             <div class="title-card jc-c">
-              <h4 class="m-0 c-w sh-2">
+              <h4 class="m-0 c-w t-sh-2">
                 VS SHOW
               </h4>
             </div>

@@ -12,13 +12,43 @@ $color-white: #fff;
   }
 
   .crown-1 {
-    position: fixed;
+    position: absolute;
     top: 10%;
     right: 0%;
   }
 
   .crown-2 {
-    position: fixed;
-    bottom: -12%;
+    position: absolute;
+    top: 100%;
+  }
+
+  @keyframes go-crown-1-left-right {        /* dale un nombre: "go-crown-1-left-right" */
+    from { top: 0%; }             /* animar desde la izquierda: 0px */
+    to { top: calc(10% - 20px); } /* animar a la izquierda: 100%-50px */
+  }
+
+  .cont-crown-1 {
+    animation: go-crown-1-left-right 5s infinite alternate;
+    /* aplicar la animación "go-crown-1-left-right" al elemento
+       duración 5 segundos
+       número de veces: infinitas
+       alternar la dirección cada vez
+    */
+    position: relative;
+  }
+
+  @keyframes go-crown-2-left-right {        /* dale un nombre: "go-crown-2-left-right" */
+    from { top: 24%; }             /* animar desde la izquierda: 0px */
+    to { top: calc(40% - 20px); } /* animar a la izquierda: 100%-50px */
+  }
+
+  .cont-crown-2 {
+    animation: go-crown-2-left-right 6s infinite alternate;
+    /* aplicar la animación "go-crown-2-left-right" al elemento
+       duración 5 segundos
+       número de veces: infinitas
+       alternar la dirección cada vez
+    */
+    position: relative;
   }
 }
