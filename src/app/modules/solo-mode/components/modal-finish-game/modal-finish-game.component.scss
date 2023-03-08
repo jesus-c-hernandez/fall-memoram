@@ -1,28 +1,69 @@
-// #modal-finish-game-component {
-//   position: absolute;
-//   top: 20%;
-//   left: 28%;
-//   cursor: pointer;
+#modal-finish-game-component {
+  .cont-modal-finish {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #fff, $alpha: 0.4);
+    transition: all 0.8s ease;
+  }
 
-//   .modal-header {
-//     background-image: url("../../../../../assets/img/pattern.png");
-//     padding: 1em;
-//   }
+  .modal-finish {
+    position: relative;
+    top: calc(50% - (18em / 2));
+    left: calc(50% - (34em / 2));
+    height: 18em;
+    width: 34em;
+    background: linear-gradient(
+      180deg,
+      rgba(50, 28, 100, 1) 50%,
+      rgba(15, 109, 170, 1) 100%
+    );
+    outline: 0.4em solid #fff;
+    border-radius: 0.4em;
+    box-shadow: 10px 10px 8px 0px rgb(0 0 0);
+  }
 
-//   .modal {
-//     position: relative;
-//     height: 36em;
-//     width: 34em;
-//     background-color: #2fd8dd;
-//     outline: 0.4em solid #fff;
-//     border-radius: 0.2em;
-//   }
+  .input-username{
+    font-family: "Fredoka One", cursive;
+    font-size: 2em;
+    color: #2C3E50;
+    padding: 0.8em;
+    border-radius: 0.4em;
+    border: none;
+    box-shadow: 4px 4px 10px 2px rgb(0 0 0);
+    transition: all 0.4s ease;
+  }
 
-//   table {
-//     width: 100%;
-//     text-align: center;
-//     // border-collapse: collapse;
-//     // overflow: hidden;
-//     // box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-//   }
-// }
+  .input-username:hover {
+    outline: 0.1em solid #F0D602;
+  }
+
+  .input-username:focus-visible {
+    outline: 0.2em solid #F0D602;
+    transform: scale(1.02);
+  }
+
+  .btn-close {
+    font-family: "Fredoka One", cursive;
+    background-color: #EB2997 ;
+    color: #fff;
+    border-radius: 0.6em;
+    border: none;
+    outline: 0.3em solid #fff;
+    padding: 0.5em 1.4em;
+    margin-top: 1em;
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+
+  .btn-close:focus {
+    background-color: #e75dab;
+    box-shadow: 6px 6px 6px 2px rgb(0 0 0);
+  }
+
+  .btn-close:disabled {
+    background-color: #fa93cd;
+  }
+}

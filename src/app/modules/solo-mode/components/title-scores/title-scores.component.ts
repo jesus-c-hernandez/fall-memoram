@@ -16,6 +16,7 @@ export class TitleScoresComponent {
   }
 
   goToMain() {
+    this.sharingService.restartGame();
     this.router.navigate(['']);
   }
 

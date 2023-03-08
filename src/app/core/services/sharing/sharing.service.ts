@@ -23,6 +23,12 @@ export class SharingService {
   private sharingScoresListOP: BehaviorSubject<Score[]> = new BehaviorSubject<
     Score[]
   >([]);
+
+  private sharingFinishGameOP: BehaviorSubject<boolean> =
+    new BehaviorSubject<boolean>(false);
+
+  private sharingSaveGameOP: BehaviorSubject<boolean> =
+    new BehaviorSubject<boolean>(false);
   // ====== Getters and Setters ======
 
   get sharingCardListObservable() {
@@ -63,5 +69,27 @@ export class SharingService {
 
   set sharingScoresListObservableData(data: Score[]) {
     this.sharingScoresListOP.next(data);
+  }
+
+  get sharingFinishGameObservable() {
+    return this.sharingFinishGameOP.asObservable();
+  }
+
+  set sharingFinishGameObservableData(data: boolean) {
+    this.sharingFinishGameOP.next(data);
+  }
+
+  get sharingSaveGameObservable() {
+    return this.sharingSaveGameOP.asObservable();
+  }
+
+  set sharingSaveGameObservableData(data: boolean) {
+    this.sharingSaveGameOP.next(data);
+  }
+
+  restartGame() {
+    this.sharingAttempsObservableData = 0;
+    this.sharingSaveGameObservableData = false;
+    this.sharingFinishGameObservableData = false;
   }
 }

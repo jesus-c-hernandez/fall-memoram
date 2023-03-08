@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SoloModeComponent } from './solo-mode.component';
-import { TitleScoresComponent } from './components/title-scores/title-scores.component';
-import { GameComponent } from './components/game/game.component';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+// Modules
 import { SharedModule } from 'src/app/shared/shared.module';
+
+// Components
+import { SoloModeComponent } from './solo-mode.component';
+import { GameComponent } from './components/game/game.component';
+import { TitleScoresComponent } from './components/title-scores/title-scores.component';
+import { MainCardComponent } from './components/game/components/main-card/main-card.component';
 import { ModalScoresComponent } from './components/modal-scores/modal-scores.component';
 import { ModalFinishGameComponent } from './components/modal-finish-game/modal-finish-game.component';
-
 
 
 @NgModule({
@@ -14,12 +18,15 @@ import { ModalFinishGameComponent } from './components/modal-finish-game/modal-f
     SoloModeComponent,
     TitleScoresComponent,
     GameComponent,
+    MainCardComponent,
     ModalScoresComponent,
-    ModalFinishGameComponent
+    ModalFinishGameComponent,
   ],
   imports: [
     CommonModule,
-    SharedModule
+    FormsModule,
+    NgOptimizedImage,
+    SharedModule,
   ]
 })
 export class SoloModeModule { }

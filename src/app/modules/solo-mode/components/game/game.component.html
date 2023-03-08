@@ -1,5 +1,10 @@
 <div id="game-solo-component">
-  <div class="">
-    <app-main-card></app-main-card>
+  <div class="cont-cards">
+    <app-main-card
+      [ngClass]="{ 'flip-card': card.isFliped }"
+      [card]="card"
+      (selectedCard)="selectCard($event)"
+      *ngFor="let card of cards$ | async"
+    ></app-main-card>
   </div>
 </div>

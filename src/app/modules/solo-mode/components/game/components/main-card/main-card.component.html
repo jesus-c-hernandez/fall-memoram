@@ -2,14 +2,13 @@
   <div
     class="card-box size"
     (click)="flipCard(card)"
-    *ngFor="let card of cards$ |async; index as i"
   >
     <div class="card" [ngClass]="{ 'flip-card': card.isFliped }">
       <div class="front size">
-        <img class="img-card size" src="{{ card.imgBack }}" />
+        <img class="img-card size" [ngSrc]="card.imgBack" fill/>
       </div>
       <div class="front back size">
-        <img class="img-card size" src="{{ card.imgFront }}" />
+        <img class="img-card size" [ngSrc]="card.imgFront" fill/>
       </div>
     </div>
   </div>

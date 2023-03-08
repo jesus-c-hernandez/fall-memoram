@@ -13,6 +13,8 @@ import { SharingService } from 'src/app/core/services/sharing/sharing.service';
 })
 export class SoloModeComponent {
   showLoading$: Observable<boolean>;
+  showFinishGame$ : Observable<boolean>;
+  showToast$ : Observable<boolean>;
 
   constructor(
     private fileService: FileService,
@@ -24,6 +26,8 @@ export class SoloModeComponent {
 
   init() {
     this.showLoading$ = this.sharingService.sharingShowLoadingObservable;
+    this.showFinishGame$ = this.sharingService.sharingFinishGameObservable;
+    this.showToast$ = this.sharingService.sharingSaveGameObservable;
     this.fileService.getCards().subscribe((resp: Card[]) => {
       this.sharingService.sharingCardListObservableData =
         this.shuffleArray(resp);

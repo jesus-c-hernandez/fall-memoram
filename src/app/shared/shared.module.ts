@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MainCardComponent } from './components/main-card/main-card.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { ToastComponent } from './components/toast/toast.component';
 
 
 
 @NgModule({
   declarations: [
-    MainCardComponent,
-    LoadingComponent
+    LoadingComponent,
+    ToastComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    MainCardComponent,
-    LoadingComponent
+    LoadingComponent,
+    ToastComponent
   ]
 })
 export class SharedModule { }
