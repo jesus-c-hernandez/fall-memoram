@@ -30,7 +30,7 @@ $color-white: #fff;
 
   @keyframes go-crown-2-left-right {        /* dale un nombre: "go-crown-2-left-right" */
     from { top: 24%; }             /* animar desde la izquierda: 0px */
-    to { top: calc(40% - 20px); } /* animar a la izquierda: 100%-50px */
+    to { top: calc(40% - 30px); } /* animar a la izquierda: 100%-50px */
   }
 
   .cont-crown-2 {

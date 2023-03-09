@@ -66,4 +66,21 @@
   .btn-close:disabled {
     background-color: #fa93cd;
   }
+
+  @media (max-width: 1024px) {
+    .modal-title {
+      font-size: 2em;
+    }
+
+    .input-username{
+      font-size: 1.6em;
+    }
+
+    .modal-finish {
+      top: calc(50% - (16em / 2));
+      left: calc(50% - (28em / 2));
+      height: 16em;
+      width: 28em;
+    }
+  }
 }

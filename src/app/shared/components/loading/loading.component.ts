@@ -20,7 +20,7 @@ export class LoadingComponent implements OnDestroy{
     }, 10);
     setTimeout( () => {
       this.moveLoadingTwo = true;
-    }, 1500);
+    }, 2500);
   }
 
   ngOnDestroy(){

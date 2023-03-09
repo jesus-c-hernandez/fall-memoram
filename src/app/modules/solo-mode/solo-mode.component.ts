@@ -41,7 +41,7 @@ export class SoloModeComponent {
   finishLoading() {
     setTimeout(() => {
       this.sharingService.sharingShowLoadingObservableData = false;
-    }, 2000);
+    }, 3000);
   }
 
   shuffleArray(inputArray: Card[]) {
