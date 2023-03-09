@@ -18,8 +18,6 @@ Memorama game with Fall Guys videogame theme.
 ![App Screenshot](https://i.ibb.co/hM8GvpW/finish-game.png)
 ### Loading
 ![App Screenshot](https://i.ibb.co/2MqhXwS/loading.png)
-## Tech Stack
-
 
 ## Documentation
 
@@ -27,6 +25,7 @@ Memorama game with Fall Guys videogame theme.
 
 [Screen-diagram](https://drive.google.com/file/d/14G-4J-kJPTcGI0lPlCneA5Ca9dRxUsAZ/view?usp=sharing)
 
+## Tech Stack
 
 **Client:** Angular v15.2
 
