@@ -1,27 +1,44 @@
-# FallMemoram
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+# Fall Memoram
 
-## Development server
+Memorama game with Fall Guys videogame theme.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+![Logo](https://i.ibb.co/Q66fvms/main.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Solo mode
+![App Screenshot](https://i.ibb.co/0KcRq3D/game-solo.png)
+### Scores
+![App Screenshot](https://i.ibb.co/5FNvKxq/scores.png)
+### Save score
+![App Screenshot](https://i.ibb.co/hM8GvpW/finish-game.png)
+### Loading
+![App Screenshot](https://i.ibb.co/2MqhXwS/loading.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Documentation
 
-## Running end-to-end tests
+[Map-diagram](https://drive.google.com/file/d/1kOIZGM8S0LZj8x_FtZcLr6ziw5c5YfST/view?usp=sharing)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+[Screen-diagram](https://drive.google.com/file/d/14G-4J-kJPTcGI0lPlCneA5Ca9dRxUsAZ/view?usp=sharing)
 
-## Further help
+## Tech Stack
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Client:** Angular v15.2
+
+**Server:** Firebase
+
+
+## Features
+
+- Vs mode ( Two players local )
+- Game sounds
+
+
+## Authors
+
+- [@Jesus Saul Hdez (Linkedin)](www.linkedin.com/in/jesus-castañeda-hernandez)
+
