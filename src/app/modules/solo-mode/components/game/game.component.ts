@@ -3,6 +3,8 @@ import { Observable } from 'rxjs';
 import { Card } from 'src/app/core/models/card.interface';
 import { SharingService } from 'src/app/core/services/sharing/sharing.service';
 import { MainCardComponent } from './components/main-card/main-card.component';
+import { FileService } from 'src/app/core/services/file/file.service';
+import { ModalFinishGameService } from '../modal-finish-game/modal-finish-game.service';
 
 @Component({
   selector: 'app-game',
@@ -20,8 +22,12 @@ export class GameComponent {
   attemps: number = 0;
   cardsToFlip: number = 28;
 
-  constructor(private sharingService: SharingService) {
-    this.cards$ = this.sharingService.sharingCardListObservable;
+  constructor(
+    private sharingService: SharingService,
+    private modalFinishGameService: ModalFinishGameService,
+    fileService: FileService
+  ) {
+    this.cards$ = fileService.getCards();
   }
 
   selectCard(card: Card) {
@@ -54,7 +60,7 @@ export class GameComponent {
   validWin() {
     this.cardsToFlip = this.cardsToFlip - 2;
     if (this.cardsToFlip === 0) {
-      this.sharingService.sharingFinishGameObservableData = true;
+      this.modalFinishGameService.showModal();
     }
   }
 }

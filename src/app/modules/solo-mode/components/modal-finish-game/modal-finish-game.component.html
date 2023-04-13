@@ -1,21 +1,31 @@
 <div id="modal-finish-game-component">
   <div class="cont-modal-finish">
     <div class="modal-finish flex-column al-i-c jc-around">
-      <div class="t-sh-2">
-        <h3 class="c-w modal-title">
-          Your score: {{ attemps }}
-        </h3>
-      </div>
-      <div>
-        <input class="input-username" type="text" placeholder="Player name" [(ngModel)]="userName">
-      </div>
-      <div class="">
-        <button class="btn-close bounce-anim" (click)="saveScore()" [disabled]="validUserName()">
-          <h5 class="t-sh-2">
-            Save
-          </h5>
-        </button>
-      </div>
+      <ng-container *ngIf="false">
+        <app-loading></app-loading>
+      </ng-container>
+      <ng-container *ngIf="true">
+        <div class="t-sh-2">
+          <h3 class="c-w modal-title">Your score: {{ attemps }}</h3>
+        </div>
+        <div>
+          <input
+            class="input-username"
+            type="text"
+            placeholder="Player name"
+            [(ngModel)]="userName"
+          />
+        </div>
+        <div class="">
+          <button
+            class="btn-close bounce-anim"
+            (click)="saveScore()"
+            [disabled]="validUserName()"
+          >
+            <h5 class="t-sh-2">Save</h5>
+          </button>
+        </div>
+      </ng-container>
     </div>
   </div>
 </div>

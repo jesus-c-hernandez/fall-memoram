@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { SharingService } from 'src/app/core/services/sharing/sharing.service';
+import { ModalScoresService } from '../modal-scores/modal-scores.service';
 
 @Component({
   selector: 'app-title-score',
@@ -11,7 +12,11 @@ import { SharingService } from 'src/app/core/services/sharing/sharing.service';
 export class TitleScoresComponent {
   attempts$: Observable<number>;
 
-  constructor(private sharingService: SharingService, private router: Router) {
+  constructor(
+    private sharingService: SharingService,
+    private modalScoreService: ModalScoresService,
+    private router: Router
+  ) {
     this.attempts$ = this.sharingService.sharingAttempsObservable;
   }
 
@@ -21,6 +26,7 @@ export class TitleScoresComponent {
   }
 
   showModalScores() {
-    this.sharingService.sharingShowModelScoresObservableData = true;
+    // this.sharingService.sharingShowModelScoresObservableData = true;
+    this.modalScoreService.showModal();
   }
 }

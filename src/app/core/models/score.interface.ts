@@ -1,5 +1,7 @@
 export interface Score {
-  date: string,
-  userName: string,
-  score: number
+  createdAt: string;
+  userName: string;
+  score: number;
 }
+
+export type ScoreCreate = Omit<Score, 'createdAt'>;

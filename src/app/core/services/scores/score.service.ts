@@ -1,25 +1,25 @@
 import { Injectable } from '@angular/core';
-import { Firestore, collection, collectionData, addDoc } from '@angular/fire/firestore';
-import { map, Observable } from 'rxjs';
-import { Score } from '../../models/score.interface';
+import { map, Observable, shareReplay, tap } from 'rxjs';
+import { Score, ScoreCreate } from '../../models/score.interface';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ScoreService {
-  constructor(private firestore: Firestore) {}
+  URL = environment.url;
 
-  getScores() :Observable<Score[]> {
-    const scoresRef = collection(this.firestore, 'scores');
-    return collectionData(scoresRef).pipe(
-      map( (resp : Score[] ) => {
-        return resp.sort((x, y) => x.score - y.score).slice(0, 10);
-      })
-    );
+  constructor(private http: HttpClient) {}
+
+  getScores(): Observable<Score[]> {
+    return this.http.get<Score[]>(`${this.URL}score`).pipe(shareReplay());
   }
 
-  createScore(score: Score) {
-    const scoresRef = collection(this.firestore, 'scores');
-    return addDoc(scoresRef, score);
+  createScore({ userName, score }: ScoreCreate) {
+    return this.http.post(`${this.URL}score`, {
+      userName: userName,
+      score: score,
+    });
   }
 }

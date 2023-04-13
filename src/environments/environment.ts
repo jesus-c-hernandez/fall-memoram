@@ -12,6 +12,7 @@ export const environment = {
     authDomain: 'app-fall-memoram.firebaseapp.com',
     messagingSenderId: '503624399991',
   },
+  url: 'https://fall-memoram-api.onrender.com/',
   production: false,
 };
 

@@ -8,10 +8,9 @@ import { SharingService } from 'src/app/core/services/sharing/sharing.service';
   styleUrls: ['./game-mode.component.scss'],
 })
 export class GameModeComponent {
-  constructor(private router: Router, private sharingService: SharingService) {}
+  constructor(private router: Router) {}
 
   goToGame(gamemode: string) {
-    this.sharingService.sharingShowLoadingObservableData = true;
     this.router.navigate([gamemode]);
   }
 }
