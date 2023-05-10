@@ -1,7 +1,7 @@
 #main-card-component {
   .size {
-    width: 7em;
-    height: 9em;
+    width: 6em;
+    height: 8em;
   }
 
   .card-box {
@@ -39,17 +39,17 @@
     border-radius: 10px;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1024px) {
     .size {
-      width: 7em;
-      height: 9em;
+      width: 4.4em;
+      height: 6em;
     }
   }
 
-  @media (max-width: 1024px) {
-    .size {
-      width: 5em;
-      height: 7em;
-    }
-  }
+  // @media (max-width: 1024px) {
+  //   .size {
+  //     width: 5em;
+  //     height: 7em;
+  //   }
+  // }
 }
