@@ -15,6 +15,7 @@ import { LoadingService } from 'src/app/shared/loading/loading.service';
 export class ModalFinishGameComponent {
   userName: string = '';
   attemps: number;
+  isSaved: boolean = false;
 
   constructor(
     private scoreService: ScoreService,
@@ -29,7 +30,7 @@ export class ModalFinishGameComponent {
   }
 
   saveScore() {
-    console.log('SAVE');
+    this.isSaved = true;
 
     const score = {
       userName: this.userName,

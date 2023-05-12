@@ -20,7 +20,7 @@
           <button
             class="btn-close bounce-anim"
             (click)="saveScore()"
-            [disabled]="validUserName()"
+            [disabled]="validUserName() || isSaved"
           >
             <h5 class="t-sh-2">Save</h5>
           </button>

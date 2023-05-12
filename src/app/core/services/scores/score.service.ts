@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { map, Observable, shareReplay, tap } from 'rxjs';
+import { Observable, shareReplay } from 'rxjs';
 import { Score, ScoreCreate } from '../../models/score.interface';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
